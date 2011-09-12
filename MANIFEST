@@ -1,4 +1,3 @@
-# $Id: MANIFEST,v 1.3 2005/03/15 00:12:20 twilde Exp $
 Build.PL
 INSTALL
 lib/Parse/PhoneNumber.pm
@@ -11,3 +10,4 @@ t/good_numbers.txt
 t/numbers.t
 t/pod.t
 t/us_numbers.t
+META.json

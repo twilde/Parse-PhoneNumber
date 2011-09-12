@@ -1,13 +1,12 @@
 package Parse::PhoneNumber;
-# $Id: PhoneNumber.pm,v 1.8 2005/10/31 16:42:04 twilde Exp $
 use strict;
-$^W = 1;
+use warnings;
 
 use Carp;
 
 use vars qw[$VERSION $EXT $MINLEN $MIN_US_LENGTH @CCODES];
 
-$VERSION = qw(1.6);
+$VERSION = qw(1.6_1);
 $EXT     = qr/\s*(?:(?:ext|ex|xt|x)[\s.:]*(\d+))/i;
 
 $MINLEN        = 7;
@@ -161,11 +160,12 @@ Returns the last error reported, or undef if no errors have occured yet.
 {
 	my $errstr = undef;
 	sub errstr { $errstr = $_[1] if $_[1]; $errstr }
+	sub clear_errstr { $errstr = undef; }
 }
 
 package Parse::PhoneNumber::Number;
 use strict;
-$^W = 1;
+use warnings;
 
 =head2 Parse::PhoneNumber::Number Objects
 

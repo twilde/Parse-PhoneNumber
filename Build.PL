@@ -1,4 +1,3 @@
-# $Id: Build.PL,v 1.3 2005/03/15 00:17:30 twilde Exp $
 use strict;
 
 use Module::Build;

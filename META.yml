@@ -1,0 +1,20 @@
+---
+name: Parse-PhoneNumber
+version: 1.6
+author:
+  - |-
+    Casey West <F<casey@geeknest.com>>
+    Maintained by Tim Wilde <F<twilde@dyndns.com>>
+abstract: Parse Phone Numbers
+license: perl
+build_requires:
+  Module::Build: 0
+  Test::More: 0
+provides:
+  Parse::PhoneNumber:
+    file: lib/Parse/PhoneNumber.pm
+    version: 1.6
+  Parse::PhoneNumber::Number:
+    file: lib/Parse/PhoneNumber.pm
+    version: 1.6
+generated_by: Module::Build version 0.25

@@ -10,4 +10,5 @@ Module::Build->new(
 		'Module::Build' => 0,
 	},
 	create_makefile_pl => 'passthrough',
+	configure_requires => { 'Module::Build' => 0.38 },
 )->create_build_script;

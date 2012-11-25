@@ -9,6 +9,6 @@ Module::Build->new(
 		'Test::More'    => 0,
 		'Module::Build' => 0,
 	},
-	create_makefile_pl => 'passthrough',
+	create_makefile_pl => 'traditional',
 	configure_requires => { 'Module::Build' => 0.38 },
 )->create_build_script;

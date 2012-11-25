@@ -223,6 +223,9 @@ Currently only accept phone numbers in International format.  If a
 number isn't given in international format, a false positive could
 occur.
 
+Please report bugs to the CPAN RT instance at
+L<https://rt.cpan.org/Dist/Display.html?Queue=Parse-PhoneNumber>
+
 =head1 SEE ALSO
 
 L<Number::Phone>
@@ -230,12 +233,18 @@ L<Number::Phone>
 =head1 AUTHOR
 
 Casey West <F<casey@geeknest.com>>
-Maintained by Tim Wilde <F<twilde@dyndns.com>>
+
+Maintained by Tim Wilde <F<cpan@krellis.org>>
 
 =head1 COPYRIGHT
 
 Copyright (c) 2003 Casey West <casey@geeknest.com>.
+
 Portions Copyright (c) 2005 Dynamic Network Services, Inc.
+
+Portions Copyright (c) 2011 Tim Wilde
+
+Portions Copyright (c) 2012 Google, Inc.
 
 All rights reserved.  
 

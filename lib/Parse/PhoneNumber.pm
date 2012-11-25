@@ -223,6 +223,10 @@ Currently only accept phone numbers in International format.  If a
 number isn't given in international format, a false positive could
 occur.
 
+=head1 SEE ALSO
+
+L<Number::Phone>
+
 =head1 AUTHOR
 
 Casey West <F<casey@geeknest.com>>

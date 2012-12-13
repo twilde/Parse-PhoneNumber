@@ -6,7 +6,7 @@ use Carp;
 
 use vars qw[$VERSION $EXT $MINLEN $MIN_US_LENGTH @CCODES];
 
-$VERSION = qw(1.8);
+$VERSION = qw(1.9);
 $EXT     = qr/\s*(?:(?:ext|ex|xt|x)[\s.:]*(\d+))/i;
 
 $MINLEN        = 7;

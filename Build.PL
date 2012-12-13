@@ -11,4 +11,9 @@ Module::Build->new(
 	},
 	create_makefile_pl => 'traditional',
 	configure_requires => { 'Module::Build' => 0.38 },
+	meta_merge => {
+		resources => {
+			repository => 'https://github.com/twilde/Parse-PhoneNumber',
+		},
+	},
 )->create_build_script;
